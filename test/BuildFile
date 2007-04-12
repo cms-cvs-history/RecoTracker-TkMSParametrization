@@ -12,5 +12,5 @@
 <use name=RecoTracker/TkMSParametrization>
 
 <library file="TestMS.cc" name="TestMS">
-<flags SEAL_PLUGIN_NAME="TestMS">
+<flags EDM_PLUGIN=1>
 </library>
