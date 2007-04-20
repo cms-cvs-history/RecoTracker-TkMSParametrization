@@ -37,9 +37,7 @@ public:
     { return (fabs(theCotLine) > 1.e-4) ? theOrigin.r()+(z-theOrigin.z())/theCotLine : 99999.; }
 
 private:
-  float initCot (float dz, float dr) {
-    return (fabs(dr) > 1.e-4)  ? dz/dr : 99999.;
-  }
+  float initCot (float dz, float dr) { return (fabs(dr) > 1.e-4)  ? dz/dr : 99999.; }
 private:
   LineOrigin theOrigin;
   float theCotLine;
